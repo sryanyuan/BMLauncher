@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>334</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Launcher</string>
+  </property>
+  <widget class="QLabel" name="m_pLblTitle">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>484</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BackMIR</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_pBtnClose">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>0</y>
+     <width>48</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_pBtnMin">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>0</y>
+     <width>30</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="m_pSelectGroup">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>464</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>多人模式</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <widget class="QLineEdit" name="m_pLeServerAddr">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>140</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>输入服务器监听地址</string>
+    </property>
+    <property name="inputMask">
+     <string>000.000.000.000:00000</string>
+    </property>
+    <property name="text">
+     <string>127.0.0.1:8300</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="m_pLeClientAddr">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>30</y>
+      <width>140</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>输入客户端连接地址</string>
+    </property>
+    <property name="inputMask">
+     <string>000.000.000.000:00000</string>
+    </property>
+    <property name="text">
+     <string>127.0.0.1:8300</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="m_pBtnStart">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>300</y>
+     <width>60</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>快速启动</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="m_pLblTip">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>341</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BackMIR游戏启动程序</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_pBtnServer">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>240</y>
+     <width>60</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>服务器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="m_pBtnClient">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>270</y>
+     <width>60</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>客户端</string>
+   </property>
+  </widget>
+  <zorder>m_pSelectGroup</zorder>
+  <zorder>m_pLblTitle</zorder>
+  <zorder>m_pBtnClose</zorder>
+  <zorder>m_pBtnMin</zorder>
+  <zorder>m_pBtnStart</zorder>
+  <zorder>m_pLblTip</zorder>
+  <zorder>m_pBtnServer</zorder>
+  <zorder>m_pBtnClient</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
