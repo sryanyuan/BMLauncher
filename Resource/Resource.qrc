@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>qss/main.qss</file>
-        <file>images/closebutton.png</file>
-        <file>images/systembutton.png</file>
-        <file>images/dlgbke.png</file>
-        <file>images/button.png</file>
-    </qresource>
-</RCC>

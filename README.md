@@ -1,4 +1,0 @@
-BMLauncher
-==========
-
-Launcher for BackMIR
